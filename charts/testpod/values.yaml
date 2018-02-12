@@ -1,0 +1,6 @@
+image:
+  repository: technosophos/test-extend-brigade
+  tag: latest
+  pullPolicy: IfNotPresent
+
+restartPolicy: Never
