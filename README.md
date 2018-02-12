@@ -23,4 +23,8 @@ For debugging, you may wish to edit the `alpine-pod` template in the chart and
 uncomment the `command:` line. Then you can `kubectl exec -it mytest-testpod /bin/sh`
 and test things out from within the pod.
 
+## Things you might need to edit
 
+- Makefile points to image
+- Chart points to image
+- Dockerfile points to specific project (deis/empty-testbed)
